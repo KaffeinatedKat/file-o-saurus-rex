@@ -1,1 +1,6 @@
 *.o
+out
+CMakePresets.json
+cmake_install.cmake
+Makefile
+CMakeFiles

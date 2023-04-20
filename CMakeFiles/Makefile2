@@ -63,57 +63,42 @@ CMAKE_BINARY_DIR = /home/coffee/github/file-o-saurus-rex
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: FileRex/all
+all: CMakeFiles/file-o-saurus-rex.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall: FileRex/preinstall
+preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: FileRex/clean
+clean: CMakeFiles/file-o-saurus-rex.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Directory level rules for directory FileRex
-
-# Recursive "all" directory target.
-FileRex/all: FileRex/CMakeFiles/FileRex.dir/all
-.PHONY : FileRex/all
-
-# Recursive "preinstall" directory target.
-FileRex/preinstall:
-.PHONY : FileRex/preinstall
-
-# Recursive "clean" directory target.
-FileRex/clean: FileRex/CMakeFiles/FileRex.dir/clean
-.PHONY : FileRex/clean
-
-#=============================================================================
-# Target rules for target FileRex/CMakeFiles/FileRex.dir
+# Target rules for target CMakeFiles/file-o-saurus-rex.dir
 
 # All Build rule for target.
-FileRex/CMakeFiles/FileRex.dir/all:
-	$(MAKE) $(MAKESILENT) -f FileRex/CMakeFiles/FileRex.dir/build.make FileRex/CMakeFiles/FileRex.dir/depend
-	$(MAKE) $(MAKESILENT) -f FileRex/CMakeFiles/FileRex.dir/build.make FileRex/CMakeFiles/FileRex.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/coffee/github/file-o-saurus-rex/CMakeFiles --progress-num=1,2 "Built target FileRex"
-.PHONY : FileRex/CMakeFiles/FileRex.dir/all
+CMakeFiles/file-o-saurus-rex.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/file-o-saurus-rex.dir/build.make CMakeFiles/file-o-saurus-rex.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/file-o-saurus-rex.dir/build.make CMakeFiles/file-o-saurus-rex.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/coffee/github/file-o-saurus-rex/CMakeFiles --progress-num=1,2,3,4 "Built target file-o-saurus-rex"
+.PHONY : CMakeFiles/file-o-saurus-rex.dir/all
 
 # Build rule for subdir invocation for target.
-FileRex/CMakeFiles/FileRex.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/coffee/github/file-o-saurus-rex/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 FileRex/CMakeFiles/FileRex.dir/all
+CMakeFiles/file-o-saurus-rex.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/coffee/github/file-o-saurus-rex/CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/file-o-saurus-rex.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/coffee/github/file-o-saurus-rex/CMakeFiles 0
-.PHONY : FileRex/CMakeFiles/FileRex.dir/rule
+.PHONY : CMakeFiles/file-o-saurus-rex.dir/rule
 
 # Convenience name for target.
-FileRex: FileRex/CMakeFiles/FileRex.dir/rule
-.PHONY : FileRex
+file-o-saurus-rex: CMakeFiles/file-o-saurus-rex.dir/rule
+.PHONY : file-o-saurus-rex
 
 # clean rule for target.
-FileRex/CMakeFiles/FileRex.dir/clean:
-	$(MAKE) $(MAKESILENT) -f FileRex/CMakeFiles/FileRex.dir/build.make FileRex/CMakeFiles/FileRex.dir/clean
-.PHONY : FileRex/CMakeFiles/FileRex.dir/clean
+CMakeFiles/file-o-saurus-rex.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/file-o-saurus-rex.dir/build.make CMakeFiles/file-o-saurus-rex.dir/clean
+.PHONY : CMakeFiles/file-o-saurus-rex.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

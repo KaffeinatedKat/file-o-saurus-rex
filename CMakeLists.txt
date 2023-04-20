@@ -5,5 +5,14 @@ cmake_minimum_required (VERSION 3.8)
 
 project ("FileRex")
 
-# Include sub-projects.
-add_subdirectory ("FileRex")
+
+# Add source files to the project
+add_executable(file-o-saurus-rex 
+    src/main.cpp 
+    src/files.cpp
+    src/tui.cpp
+)
+
+# Include header files
+target_include_directories(file-o-saurus-rex PRIVATE include)
+
