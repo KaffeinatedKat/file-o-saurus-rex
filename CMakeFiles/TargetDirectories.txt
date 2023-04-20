@@ -1,0 +1,5 @@
+/home/coffee/github/file-o-saurus-rex/CMakeFiles/edit_cache.dir
+/home/coffee/github/file-o-saurus-rex/CMakeFiles/rebuild_cache.dir
+/home/coffee/github/file-o-saurus-rex/FileRex/CMakeFiles/FileRex.dir
+/home/coffee/github/file-o-saurus-rex/FileRex/CMakeFiles/edit_cache.dir
+/home/coffee/github/file-o-saurus-rex/FileRex/CMakeFiles/rebuild_cache.dir

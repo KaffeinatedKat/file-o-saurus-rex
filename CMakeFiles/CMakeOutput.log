@@ -1,0 +1,317 @@
+The system is: Linux - 6.1.8-gentoo - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/lib/llvm/15/bin/clang 
+Build flags: -Os;-march=haswell;-pipe
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is Clang, found in "/home/coffee/github/file-o-saurus-rex/CMakeFiles/3.25.3/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/lib/llvm/15/bin/clang++ 
+Build flags: -Os;-march=haswell;-pipe
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is Clang, found in "/home/coffee/github/file-o-saurus-rex/CMakeFiles/3.25.3/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/coffee/github/file-o-saurus-rex/CMakeFiles/CMakeScratch/TryCompile-DapoLc
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9fd5e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9fd5e.dir/build.make CMakeFiles/cmTC_9fd5e.dir/build
+gmake[1]: Entering directory '/home/coffee/github/file-o-saurus-rex/CMakeFiles/CMakeScratch/TryCompile-DapoLc'
+Building C object CMakeFiles/cmTC_9fd5e.dir/CMakeCCompilerABI.c.o
+/usr/lib/llvm/15/bin/clang   -Os -march=haswell -pipe    -v -MD -MT CMakeFiles/cmTC_9fd5e.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_9fd5e.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_9fd5e.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+clang version 15.0.7
+Target: x86_64-gentoo-linux-musl
+Thread model: posix
+InstalledDir: /usr/lib/llvm/15/bin
+Configuration file: /etc/clang/clang.cfg
+System configuration file directory: /etc/clang
+Selected GCC installation: /usr/lib/gcc/x86_64-gentoo-linux-musl/12
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ (in-process)
+ "/usr/lib/llvm/15/bin/clang-15" -cc1 -triple x86_64-gentoo-linux-musl -emit-obj --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=none -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu haswell -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/coffee/github/file-o-saurus-rex/CMakeFiles/CMakeScratch/TryCompile-DapoLc -resource-dir /usr/lib/llvm/15/bin/../../../../lib/clang/15.0.7 -dependency-file CMakeFiles/cmTC_9fd5e.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_9fd5e.dir/CMakeCCompilerABI.c.o -sys-header-deps -include /usr/include/gentoo/fortify.h -internal-isystem /usr/local/include -internal-isystem /usr/lib/gcc/x86_64-gentoo-linux-musl/12/../../../../x86_64-gentoo-linux-musl/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -internal-isystem /usr/lib/llvm/15/bin/../../../../lib/clang/15.0.7/include -Os -fdebug-compilation-dir=/home/coffee/github/file-o-saurus-rex/CMakeFiles/CMakeScratch/TryCompile-DapoLc -ferror-limit 19 -stack-protector 2 -fgnuc-version=4.2.1 -vectorize-loops -vectorize-slp -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_9fd5e.dir/CMakeCCompilerABI.c.o -x c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+clang -cc1 version 15.0.7 based upon LLVM 15.0.7libcxx default target x86_64-gentoo-linux-musl
+ignoring nonexistent directory "/usr/local/include"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-gentoo-linux-musl/12/../../../../x86_64-gentoo-linux-musl/include"
+ignoring nonexistent directory "/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/include
+ /usr/lib/llvm/15/bin/../../../../lib/clang/15.0.7/include
+End of search list.
+Linking C executable cmTC_9fd5e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9fd5e.dir/link.txt --verbose=1
+/usr/lib/llvm/15/bin/clang -Os -march=haswell -pipe   -v CMakeFiles/cmTC_9fd5e.dir/CMakeCCompilerABI.c.o -o cmTC_9fd5e 
+clang version 15.0.7
+Target: x86_64-gentoo-linux-musl
+Thread model: posix
+InstalledDir: /usr/lib/llvm/15/bin
+Configuration file: /etc/clang/clang.cfg
+System configuration file directory: /etc/clang
+Selected GCC installation: /usr/lib/gcc/x86_64-gentoo-linux-musl/12
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/usr/lib/llvm/15/bin/ld.lld" -pie --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib/ld-musl-x86_64.so.1 -o cmTC_9fd5e /usr/lib/Scrt1.o /usr/lib/crti.o /usr/lib/llvm/15/bin/../../../../lib/clang/15.0.7/lib/linux/clang_rt.crtbegin-x86_64.o -L/usr/lib/gcc/x86_64-gentoo-linux-musl/12 -L/usr/lib/gcc/x86_64-gentoo-linux-musl/12/../../../../x86_64-gentoo-linux-musl/lib -L/lib -L/usr/lib CMakeFiles/cmTC_9fd5e.dir/CMakeCCompilerABI.c.o /usr/lib/llvm/15/bin/../../../../lib/clang/15.0.7/lib/linux/libclang_rt.builtins-x86_64.a --as-needed -lunwind --no-as-needed -lc /usr/lib/llvm/15/bin/../../../../lib/clang/15.0.7/lib/linux/libclang_rt.builtins-x86_64.a --as-needed -lunwind --no-as-needed /usr/lib/llvm/15/bin/../../../../lib/clang/15.0.7/lib/linux/clang_rt.crtend-x86_64.o /usr/lib/crtn.o
+gmake[1]: Leaving directory '/home/coffee/github/file-o-saurus-rex/CMakeFiles/CMakeScratch/TryCompile-DapoLc'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/include]
+    add: [/usr/lib/llvm/15/bin/../../../../lib/clang/15.0.7/include]
+  end of search list found
+  collapse include dir [/usr/include] ==> [/usr/include]
+  collapse include dir [/usr/lib/llvm/15/bin/../../../../lib/clang/15.0.7/include] ==> [/usr/lib/clang/15.0.7/include]
+  implicit include dirs: [/usr/include;/usr/lib/clang/15.0.7/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.lld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/coffee/github/file-o-saurus-rex/CMakeFiles/CMakeScratch/TryCompile-DapoLc]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9fd5e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9fd5e.dir/build.make CMakeFiles/cmTC_9fd5e.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/coffee/github/file-o-saurus-rex/CMakeFiles/CMakeScratch/TryCompile-DapoLc']
+  ignore line: [Building C object CMakeFiles/cmTC_9fd5e.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/lib/llvm/15/bin/clang   -Os -march=haswell -pipe    -v -MD -MT CMakeFiles/cmTC_9fd5e.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_9fd5e.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_9fd5e.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang version 15.0.7]
+  ignore line: [Target: x86_64-gentoo-linux-musl]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /usr/lib/llvm/15/bin]
+  ignore line: [Configuration file: /etc/clang/clang.cfg]
+  ignore line: [System configuration file directory: /etc/clang]
+  ignore line: [Selected GCC installation: /usr/lib/gcc/x86_64-gentoo-linux-musl/12]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  ignore line: [ (in-process)]
+  ignore line: [ "/usr/lib/llvm/15/bin/clang-15" -cc1 -triple x86_64-gentoo-linux-musl -emit-obj --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=none -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu haswell -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/coffee/github/file-o-saurus-rex/CMakeFiles/CMakeScratch/TryCompile-DapoLc -resource-dir /usr/lib/llvm/15/bin/../../../../lib/clang/15.0.7 -dependency-file CMakeFiles/cmTC_9fd5e.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_9fd5e.dir/CMakeCCompilerABI.c.o -sys-header-deps -include /usr/include/gentoo/fortify.h -internal-isystem /usr/local/include -internal-isystem /usr/lib/gcc/x86_64-gentoo-linux-musl/12/../../../../x86_64-gentoo-linux-musl/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -internal-isystem /usr/lib/llvm/15/bin/../../../../lib/clang/15.0.7/include -Os -fdebug-compilation-dir=/home/coffee/github/file-o-saurus-rex/CMakeFiles/CMakeScratch/TryCompile-DapoLc -ferror-limit 19 -stack-protector 2 -fgnuc-version=4.2.1 -vectorize-loops -vectorize-slp -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_9fd5e.dir/CMakeCCompilerABI.c.o -x c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang -cc1 version 15.0.7 based upon LLVM 15.0.7libcxx default target x86_64-gentoo-linux-musl]
+  ignore line: [ignoring nonexistent directory "/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-gentoo-linux-musl/12/../../../../x86_64-gentoo-linux-musl/include"]
+  ignore line: [ignoring nonexistent directory "/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/include]
+  ignore line: [ /usr/lib/llvm/15/bin/../../../../lib/clang/15.0.7/include]
+  ignore line: [End of search list.]
+  ignore line: [Linking C executable cmTC_9fd5e]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9fd5e.dir/link.txt --verbose=1]
+  ignore line: [/usr/lib/llvm/15/bin/clang -Os -march=haswell -pipe   -v CMakeFiles/cmTC_9fd5e.dir/CMakeCCompilerABI.c.o -o cmTC_9fd5e ]
+  ignore line: [clang version 15.0.7]
+  ignore line: [Target: x86_64-gentoo-linux-musl]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /usr/lib/llvm/15/bin]
+  ignore line: [Configuration file: /etc/clang/clang.cfg]
+  ignore line: [System configuration file directory: /etc/clang]
+  ignore line: [Selected GCC installation: /usr/lib/gcc/x86_64-gentoo-linux-musl/12]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  link line: [ "/usr/lib/llvm/15/bin/ld.lld" -pie --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib/ld-musl-x86_64.so.1 -o cmTC_9fd5e /usr/lib/Scrt1.o /usr/lib/crti.o /usr/lib/llvm/15/bin/../../../../lib/clang/15.0.7/lib/linux/clang_rt.crtbegin-x86_64.o -L/usr/lib/gcc/x86_64-gentoo-linux-musl/12 -L/usr/lib/gcc/x86_64-gentoo-linux-musl/12/../../../../x86_64-gentoo-linux-musl/lib -L/lib -L/usr/lib CMakeFiles/cmTC_9fd5e.dir/CMakeCCompilerABI.c.o /usr/lib/llvm/15/bin/../../../../lib/clang/15.0.7/lib/linux/libclang_rt.builtins-x86_64.a --as-needed -lunwind --no-as-needed -lc /usr/lib/llvm/15/bin/../../../../lib/clang/15.0.7/lib/linux/libclang_rt.builtins-x86_64.a --as-needed -lunwind --no-as-needed /usr/lib/llvm/15/bin/../../../../lib/clang/15.0.7/lib/linux/clang_rt.crtend-x86_64.o /usr/lib/crtn.o]
+    arg [/usr/lib/llvm/15/bin/ld.lld] ==> ignore
+    arg [-pie] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-musl-x86_64.so.1] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_9fd5e] ==> ignore
+    arg [/usr/lib/Scrt1.o] ==> obj [/usr/lib/Scrt1.o]
+    arg [/usr/lib/crti.o] ==> obj [/usr/lib/crti.o]
+    arg [/usr/lib/llvm/15/bin/../../../../lib/clang/15.0.7/lib/linux/clang_rt.crtbegin-x86_64.o] ==> obj [/usr/lib/llvm/15/bin/../../../../lib/clang/15.0.7/lib/linux/clang_rt.crtbegin-x86_64.o]
+    arg [-L/usr/lib/gcc/x86_64-gentoo-linux-musl/12] ==> dir [/usr/lib/gcc/x86_64-gentoo-linux-musl/12]
+    arg [-L/usr/lib/gcc/x86_64-gentoo-linux-musl/12/../../../../x86_64-gentoo-linux-musl/lib] ==> dir [/usr/lib/gcc/x86_64-gentoo-linux-musl/12/../../../../x86_64-gentoo-linux-musl/lib]
+    arg [-L/lib] ==> dir [/lib]
+    arg [-L/usr/lib] ==> dir [/usr/lib]
+    arg [CMakeFiles/cmTC_9fd5e.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [/usr/lib/llvm/15/bin/../../../../lib/clang/15.0.7/lib/linux/libclang_rt.builtins-x86_64.a] ==> lib [/usr/lib/llvm/15/bin/../../../../lib/clang/15.0.7/lib/linux/libclang_rt.builtins-x86_64.a]
+    arg [--as-needed] ==> ignore
+    arg [-lunwind] ==> lib [unwind]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [/usr/lib/llvm/15/bin/../../../../lib/clang/15.0.7/lib/linux/libclang_rt.builtins-x86_64.a] ==> lib [/usr/lib/llvm/15/bin/../../../../lib/clang/15.0.7/lib/linux/libclang_rt.builtins-x86_64.a]
+    arg [--as-needed] ==> ignore
+    arg [-lunwind] ==> lib [unwind]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/llvm/15/bin/../../../../lib/clang/15.0.7/lib/linux/clang_rt.crtend-x86_64.o] ==> obj [/usr/lib/llvm/15/bin/../../../../lib/clang/15.0.7/lib/linux/clang_rt.crtend-x86_64.o]
+    arg [/usr/lib/crtn.o] ==> obj [/usr/lib/crtn.o]
+  remove lib [/usr/lib/llvm/15/bin/../../../../lib/clang/15.0.7/lib/linux/libclang_rt.builtins-x86_64.a]
+  remove lib [/usr/lib/llvm/15/bin/../../../../lib/clang/15.0.7/lib/linux/libclang_rt.builtins-x86_64.a]
+  collapse obj [/usr/lib/llvm/15/bin/../../../../lib/clang/15.0.7/lib/linux/clang_rt.crtbegin-x86_64.o] ==> [/usr/lib/clang/15.0.7/lib/linux/clang_rt.crtbegin-x86_64.o]
+  collapse obj [/usr/lib/llvm/15/bin/../../../../lib/clang/15.0.7/lib/linux/clang_rt.crtend-x86_64.o] ==> [/usr/lib/clang/15.0.7/lib/linux/clang_rt.crtend-x86_64.o]
+  collapse library dir [/usr/lib/gcc/x86_64-gentoo-linux-musl/12] ==> [/usr/lib/gcc/x86_64-gentoo-linux-musl/12]
+  collapse library dir [/usr/lib/gcc/x86_64-gentoo-linux-musl/12/../../../../x86_64-gentoo-linux-musl/lib] ==> [/usr/x86_64-gentoo-linux-musl/lib]
+  collapse library dir [/lib] ==> [/lib]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  implicit libs: [unwind;c;unwind]
+  implicit objs: [/usr/lib/Scrt1.o;/usr/lib/crti.o;/usr/lib/clang/15.0.7/lib/linux/clang_rt.crtbegin-x86_64.o;/usr/lib/clang/15.0.7/lib/linux/clang_rt.crtend-x86_64.o;/usr/lib/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-gentoo-linux-musl/12;/usr/x86_64-gentoo-linux-musl/lib;/lib;/usr/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/coffee/github/file-o-saurus-rex/CMakeFiles/CMakeScratch/TryCompile-fdIJPN
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c447e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c447e.dir/build.make CMakeFiles/cmTC_c447e.dir/build
+gmake[1]: Entering directory '/home/coffee/github/file-o-saurus-rex/CMakeFiles/CMakeScratch/TryCompile-fdIJPN'
+Building CXX object CMakeFiles/cmTC_c447e.dir/CMakeCXXCompilerABI.cpp.o
+/usr/lib/llvm/15/bin/clang++   -Os -march=haswell -pipe    -v -MD -MT CMakeFiles/cmTC_c447e.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_c447e.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_c447e.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+clang version 15.0.7
+Target: x86_64-gentoo-linux-musl
+Thread model: posix
+InstalledDir: /usr/lib/llvm/15/bin
+Configuration file: /etc/clang/clang++.cfg
+System configuration file directory: /etc/clang
+Selected GCC installation: /usr/lib/gcc/x86_64-gentoo-linux-musl/12
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ (in-process)
+ "/usr/lib/llvm/15/bin/clang-15" -cc1 -triple x86_64-gentoo-linux-musl -emit-obj --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=none -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu haswell -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/coffee/github/file-o-saurus-rex/CMakeFiles/CMakeScratch/TryCompile-fdIJPN -resource-dir /usr/lib/llvm/15/bin/../../../../lib/clang/15.0.7 -dependency-file CMakeFiles/cmTC_c447e.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_c447e.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -include /usr/include/gentoo/fortify.h -internal-isystem /usr/include/c++/v1 -internal-isystem /usr/local/include -internal-isystem /usr/lib/gcc/x86_64-gentoo-linux-musl/12/../../../../x86_64-gentoo-linux-musl/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -internal-isystem /usr/lib/llvm/15/bin/../../../../lib/clang/15.0.7/include -Os -fdeprecated-macro -fdebug-compilation-dir=/home/coffee/github/file-o-saurus-rex/CMakeFiles/CMakeScratch/TryCompile-fdIJPN -ferror-limit 19 -stack-protector 2 -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -vectorize-loops -vectorize-slp -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_c447e.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+clang -cc1 version 15.0.7 based upon LLVM 15.0.7libcxx default target x86_64-gentoo-linux-musl
+ignoring nonexistent directory "/usr/local/include"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-gentoo-linux-musl/12/../../../../x86_64-gentoo-linux-musl/include"
+ignoring nonexistent directory "/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/include/c++/v1
+ /usr/include
+ /usr/lib/llvm/15/bin/../../../../lib/clang/15.0.7/include
+End of search list.
+Linking CXX executable cmTC_c447e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c447e.dir/link.txt --verbose=1
+/usr/lib/llvm/15/bin/clang++ -Os -march=haswell -pipe   -v CMakeFiles/cmTC_c447e.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_c447e 
+clang version 15.0.7
+Target: x86_64-gentoo-linux-musl
+Thread model: posix
+InstalledDir: /usr/lib/llvm/15/bin
+Configuration file: /etc/clang/clang++.cfg
+System configuration file directory: /etc/clang
+Selected GCC installation: /usr/lib/gcc/x86_64-gentoo-linux-musl/12
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/usr/lib/llvm/15/bin/ld.lld" -pie --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib/ld-musl-x86_64.so.1 -o cmTC_c447e /usr/lib/Scrt1.o /usr/lib/crti.o /usr/lib/llvm/15/bin/../../../../lib/clang/15.0.7/lib/linux/clang_rt.crtbegin-x86_64.o -L/usr/lib/gcc/x86_64-gentoo-linux-musl/12 -L/usr/lib/gcc/x86_64-gentoo-linux-musl/12/../../../../x86_64-gentoo-linux-musl/lib -L/lib -L/usr/lib CMakeFiles/cmTC_c447e.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lm /usr/lib/llvm/15/bin/../../../../lib/clang/15.0.7/lib/linux/libclang_rt.builtins-x86_64.a --as-needed -lunwind --no-as-needed -lc /usr/lib/llvm/15/bin/../../../../lib/clang/15.0.7/lib/linux/libclang_rt.builtins-x86_64.a --as-needed -lunwind --no-as-needed /usr/lib/llvm/15/bin/../../../../lib/clang/15.0.7/lib/linux/clang_rt.crtend-x86_64.o /usr/lib/crtn.o
+gmake[1]: Leaving directory '/home/coffee/github/file-o-saurus-rex/CMakeFiles/CMakeScratch/TryCompile-fdIJPN'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/include/c++/v1]
+    add: [/usr/include]
+    add: [/usr/lib/llvm/15/bin/../../../../lib/clang/15.0.7/include]
+  end of search list found
+  collapse include dir [/usr/include/c++/v1] ==> [/usr/include/c++/v1]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  collapse include dir [/usr/lib/llvm/15/bin/../../../../lib/clang/15.0.7/include] ==> [/usr/lib/clang/15.0.7/include]
+  implicit include dirs: [/usr/include/c++/v1;/usr/include;/usr/lib/clang/15.0.7/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.lld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/coffee/github/file-o-saurus-rex/CMakeFiles/CMakeScratch/TryCompile-fdIJPN]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c447e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c447e.dir/build.make CMakeFiles/cmTC_c447e.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/coffee/github/file-o-saurus-rex/CMakeFiles/CMakeScratch/TryCompile-fdIJPN']
+  ignore line: [Building CXX object CMakeFiles/cmTC_c447e.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/lib/llvm/15/bin/clang++   -Os -march=haswell -pipe    -v -MD -MT CMakeFiles/cmTC_c447e.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_c447e.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_c447e.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang version 15.0.7]
+  ignore line: [Target: x86_64-gentoo-linux-musl]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /usr/lib/llvm/15/bin]
+  ignore line: [Configuration file: /etc/clang/clang++.cfg]
+  ignore line: [System configuration file directory: /etc/clang]
+  ignore line: [Selected GCC installation: /usr/lib/gcc/x86_64-gentoo-linux-musl/12]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  ignore line: [ (in-process)]
+  ignore line: [ "/usr/lib/llvm/15/bin/clang-15" -cc1 -triple x86_64-gentoo-linux-musl -emit-obj --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=none -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu haswell -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/coffee/github/file-o-saurus-rex/CMakeFiles/CMakeScratch/TryCompile-fdIJPN -resource-dir /usr/lib/llvm/15/bin/../../../../lib/clang/15.0.7 -dependency-file CMakeFiles/cmTC_c447e.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_c447e.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -include /usr/include/gentoo/fortify.h -internal-isystem /usr/include/c++/v1 -internal-isystem /usr/local/include -internal-isystem /usr/lib/gcc/x86_64-gentoo-linux-musl/12/../../../../x86_64-gentoo-linux-musl/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -internal-isystem /usr/lib/llvm/15/bin/../../../../lib/clang/15.0.7/include -Os -fdeprecated-macro -fdebug-compilation-dir=/home/coffee/github/file-o-saurus-rex/CMakeFiles/CMakeScratch/TryCompile-fdIJPN -ferror-limit 19 -stack-protector 2 -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -vectorize-loops -vectorize-slp -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_c447e.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang -cc1 version 15.0.7 based upon LLVM 15.0.7libcxx default target x86_64-gentoo-linux-musl]
+  ignore line: [ignoring nonexistent directory "/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-gentoo-linux-musl/12/../../../../x86_64-gentoo-linux-musl/include"]
+  ignore line: [ignoring nonexistent directory "/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/include/c++/v1]
+  ignore line: [ /usr/include]
+  ignore line: [ /usr/lib/llvm/15/bin/../../../../lib/clang/15.0.7/include]
+  ignore line: [End of search list.]
+  ignore line: [Linking CXX executable cmTC_c447e]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c447e.dir/link.txt --verbose=1]
+  ignore line: [/usr/lib/llvm/15/bin/clang++ -Os -march=haswell -pipe   -v CMakeFiles/cmTC_c447e.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_c447e ]
+  ignore line: [clang version 15.0.7]
+  ignore line: [Target: x86_64-gentoo-linux-musl]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /usr/lib/llvm/15/bin]
+  ignore line: [Configuration file: /etc/clang/clang++.cfg]
+  ignore line: [System configuration file directory: /etc/clang]
+  ignore line: [Selected GCC installation: /usr/lib/gcc/x86_64-gentoo-linux-musl/12]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  link line: [ "/usr/lib/llvm/15/bin/ld.lld" -pie --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib/ld-musl-x86_64.so.1 -o cmTC_c447e /usr/lib/Scrt1.o /usr/lib/crti.o /usr/lib/llvm/15/bin/../../../../lib/clang/15.0.7/lib/linux/clang_rt.crtbegin-x86_64.o -L/usr/lib/gcc/x86_64-gentoo-linux-musl/12 -L/usr/lib/gcc/x86_64-gentoo-linux-musl/12/../../../../x86_64-gentoo-linux-musl/lib -L/lib -L/usr/lib CMakeFiles/cmTC_c447e.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lm /usr/lib/llvm/15/bin/../../../../lib/clang/15.0.7/lib/linux/libclang_rt.builtins-x86_64.a --as-needed -lunwind --no-as-needed -lc /usr/lib/llvm/15/bin/../../../../lib/clang/15.0.7/lib/linux/libclang_rt.builtins-x86_64.a --as-needed -lunwind --no-as-needed /usr/lib/llvm/15/bin/../../../../lib/clang/15.0.7/lib/linux/clang_rt.crtend-x86_64.o /usr/lib/crtn.o]
+    arg [/usr/lib/llvm/15/bin/ld.lld] ==> ignore
+    arg [-pie] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-musl-x86_64.so.1] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_c447e] ==> ignore
+    arg [/usr/lib/Scrt1.o] ==> obj [/usr/lib/Scrt1.o]
+    arg [/usr/lib/crti.o] ==> obj [/usr/lib/crti.o]
+    arg [/usr/lib/llvm/15/bin/../../../../lib/clang/15.0.7/lib/linux/clang_rt.crtbegin-x86_64.o] ==> obj [/usr/lib/llvm/15/bin/../../../../lib/clang/15.0.7/lib/linux/clang_rt.crtbegin-x86_64.o]
+    arg [-L/usr/lib/gcc/x86_64-gentoo-linux-musl/12] ==> dir [/usr/lib/gcc/x86_64-gentoo-linux-musl/12]
+    arg [-L/usr/lib/gcc/x86_64-gentoo-linux-musl/12/../../../../x86_64-gentoo-linux-musl/lib] ==> dir [/usr/lib/gcc/x86_64-gentoo-linux-musl/12/../../../../x86_64-gentoo-linux-musl/lib]
+    arg [-L/lib] ==> dir [/lib]
+    arg [-L/usr/lib] ==> dir [/usr/lib]
+    arg [CMakeFiles/cmTC_c447e.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lc++] ==> lib [c++]
+    arg [-lm] ==> lib [m]
+    arg [/usr/lib/llvm/15/bin/../../../../lib/clang/15.0.7/lib/linux/libclang_rt.builtins-x86_64.a] ==> lib [/usr/lib/llvm/15/bin/../../../../lib/clang/15.0.7/lib/linux/libclang_rt.builtins-x86_64.a]
+    arg [--as-needed] ==> ignore
+    arg [-lunwind] ==> lib [unwind]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [/usr/lib/llvm/15/bin/../../../../lib/clang/15.0.7/lib/linux/libclang_rt.builtins-x86_64.a] ==> lib [/usr/lib/llvm/15/bin/../../../../lib/clang/15.0.7/lib/linux/libclang_rt.builtins-x86_64.a]
+    arg [--as-needed] ==> ignore
+    arg [-lunwind] ==> lib [unwind]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/llvm/15/bin/../../../../lib/clang/15.0.7/lib/linux/clang_rt.crtend-x86_64.o] ==> obj [/usr/lib/llvm/15/bin/../../../../lib/clang/15.0.7/lib/linux/clang_rt.crtend-x86_64.o]
+    arg [/usr/lib/crtn.o] ==> obj [/usr/lib/crtn.o]
+  remove lib [/usr/lib/llvm/15/bin/../../../../lib/clang/15.0.7/lib/linux/libclang_rt.builtins-x86_64.a]
+  remove lib [/usr/lib/llvm/15/bin/../../../../lib/clang/15.0.7/lib/linux/libclang_rt.builtins-x86_64.a]
+  collapse obj [/usr/lib/llvm/15/bin/../../../../lib/clang/15.0.7/lib/linux/clang_rt.crtbegin-x86_64.o] ==> [/usr/lib/clang/15.0.7/lib/linux/clang_rt.crtbegin-x86_64.o]
+  collapse obj [/usr/lib/llvm/15/bin/../../../../lib/clang/15.0.7/lib/linux/clang_rt.crtend-x86_64.o] ==> [/usr/lib/clang/15.0.7/lib/linux/clang_rt.crtend-x86_64.o]
+  collapse library dir [/usr/lib/gcc/x86_64-gentoo-linux-musl/12] ==> [/usr/lib/gcc/x86_64-gentoo-linux-musl/12]
+  collapse library dir [/usr/lib/gcc/x86_64-gentoo-linux-musl/12/../../../../x86_64-gentoo-linux-musl/lib] ==> [/usr/x86_64-gentoo-linux-musl/lib]
+  collapse library dir [/lib] ==> [/lib]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  implicit libs: [c++;m;unwind;c;unwind]
+  implicit objs: [/usr/lib/Scrt1.o;/usr/lib/crti.o;/usr/lib/clang/15.0.7/lib/linux/clang_rt.crtbegin-x86_64.o;/usr/lib/clang/15.0.7/lib/linux/clang_rt.crtend-x86_64.o;/usr/lib/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-gentoo-linux-musl/12;/usr/x86_64-gentoo-linux-musl/lib;/lib;/usr/lib]
+  implicit fwks: []
+
+

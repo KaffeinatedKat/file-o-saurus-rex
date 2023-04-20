@@ -1,0 +1,5 @@
+C:/Users/19703/OneDrive/Documents/C++ Y2/FileRex/out/build/x64-debug/CMakeFiles/edit_cache.dir
+C:/Users/19703/OneDrive/Documents/C++ Y2/FileRex/out/build/x64-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/19703/OneDrive/Documents/C++ Y2/FileRex/out/build/x64-debug/FileRex/CMakeFiles/FileRex.dir
+C:/Users/19703/OneDrive/Documents/C++ Y2/FileRex/out/build/x64-debug/FileRex/CMakeFiles/edit_cache.dir
+C:/Users/19703/OneDrive/Documents/C++ Y2/FileRex/out/build/x64-debug/FileRex/CMakeFiles/rebuild_cache.dir
